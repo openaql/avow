@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-06-13",
+  "profilesFile": "data/profiles.json",
+  "categories": [
+    {
+      "id": "rapists",
+      "label": "Rapists",
+      "icon": "shield-alert",
+      "color": "#ef4444",
+      "file": "data/rapists.json"
+    }
+  ]
+}

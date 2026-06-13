@@ -1,0 +1,26 @@
+{
+  "name": "Avox",
+  "short_name": "Avow",
+  "description": "Awareness, Integrity and Justice",
+  "id": "/avow/",
+  "start_url": "../index.html",
+  "scope": "../",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#0b0d12",
+  "theme_color": "#1CC2BB",
+  "categories": ["news", "reference", "utilities", "awareness"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    { "src": "../assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "../assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "../assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "../assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Search", "short_name": "Search", "url": "../search.html", "icons": [{ "src": "../assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Categories", "short_name": "Categories", "url": "../categories.html", "icons": [{ "src": "../assets/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

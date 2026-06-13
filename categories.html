@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5" />
+  <title>Categories | Avow</title>
+  <meta name="description" content="Browse documented case categories." />
+  <meta name="theme-color" content="#1CC2BB" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; media-src 'self' https:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'" />
+  <meta name="referrer" content="no-referrer" />
+  <link rel="canonical" href="./categories.html" />
+  <link rel="manifest" href="pwa/manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/icon.svg" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="categories">
+  <div id="splash" aria-hidden="true"><div class="splash-logo"><img src="assets/icons/icon.svg" alt="Avow"></div></div>
+  <main class="app" id="main">
+    <h1 class="page-title">Categories</h1>
+    <p class="page-sub">Tap a category to explore its cases</p>
+    <section class="section"><div class="cat-grid" id="cat-grid"></div></section>
+
+    <section class="section hide" id="cat-detail">
+      <div id="cat-head"></div>
+      <div class="case-list" id="cat-list" style="padding-left:0;padding-right:0"></div>
+    </section>
+  </main>
+
+  <script src="assets/js/core.js" defer></script>
+  <script src="assets/js/ui.js" defer></script>
+  <script src="assets/js/components.js" defer></script>
+  <script src="assets/js/categories.js" defer></script>
+</body>
+</html>

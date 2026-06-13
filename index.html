@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5" />
+  <title>Avow</title>
+  <meta name="title" content="Avow"/>
+  <meta name="theme-color" content="#1CC2BB" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)" />
+  <meta name="description" content="Awareness, Integrity and Justice" />
+  <meta name="keywords" content="criminal, awareness, justice"/>
+  <meta name="author" content="Avow"/>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="language" content="en"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://openaql.github.io/avow"/>
+  <meta property="og:title" content="Avow"/>
+  <meta property="og:description" content="Awareness, Integrity and Justice"/>
+  <meta property="og:image" content="https://openaql.github.io/avow/assets/icons/avow-banner.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:url" content="https://openaql.github.io/avow"/>
+  <meta name="twitter:title" content="Avow"/>
+  <meta name="twitter:description" content="Awareness, Integrity and Justice"/>
+  <meta name="twitter:image" content="https://openaql.github.io/avow/assets/icons/avow-banner.jpg"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; media-src 'self' https:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'" />
+  <meta name="referrer" content="no-referrer" />
+  <link rel="canonical" href="./index.html" />
+  <link rel="manifest" href="pwa/manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/icon.svg" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Avow" />
+  <link rel="preload" href="assets/css/styles.css" as="style" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="preload" href="data/index.json" as="fetch" type="application/json" crossorigin="anonymous" />
+</head>
+<body data-page="home">
+  <div id="splash" aria-hidden="true"><div class="splash-logo"><img src="assets/icons/icon.svg" alt="Avow"></div></div>
+
+  <main class="app" id="main">
+    <section class="section">
+      <div class="section__head"><h2 class="section__title">Categories</h2><a class="section__link" href="categories.html">View all</a></div>
+    </section>
+    <div class="cat-scroller" id="cat-chips" aria-label="Categories"></div>
+
+    <section class="section">
+      <div class="section__head"><h2 class="section__title">Recent Cases</h2><a class="section__link" href="search.html?sort=recent">View all</a></div>
+    </section>
+    <div class="case-rail" id="recent"></div>
+
+    <section class="section">
+      <div class="section__head"><h2 class="section__title">Trending</h2><a class="section__link" href="search.html?trending=1">View all</a></div>
+    </section>
+    <div class="case-rail" id="trending"></div>
+
+    <section class="section">
+      <div class="section__head"><h2 class="section__title">Featured</h2><a class="section__link" href="search.html?featured=1">View all</a></div>
+    </section>
+    <div class="case-rail" id="featured"></div>
+  </main>
+
+  <script src="assets/js/core.js" defer></script>
+  <script src="assets/js/ui.js" defer></script>
+  <script src="assets/js/components.js" defer></script>
+  <script src="assets/js/home.js" defer></script>
+</body>
+</html>

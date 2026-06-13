@@ -1,0 +1,16 @@
+{
+  "profiles": [
+    {
+      "id": "person-001",
+      "name": "Sohel Rana",
+      "age": 31,
+      "location": "Maheshchandrapur Village, Singra, Natore",
+      "district": "Natore",
+      "avatar": "assets/images/avatars/sohel_rana_rapists.png",
+      "riskScore": 100,
+      "caseIds": [
+        "rapists-0001"
+      ]
+    }
+  ]
+}
