@@ -301,6 +301,7 @@ input[type="range"] { width: 100%; accent-color: var(--brand); }
 .kv dt { color: var(--text-mut); }
 .kv dd { font-weight: 600; }
 .taglist { display: flex; flex-wrap: wrap; gap: 8px; }
+.taglist .badge {max-width: 100%; white-space: normal; overflow-wrap: anywhere; word-break: break-word; text-align: left;}
 .prose { color: var(--text-soft); font-size: 15px; line-height: 1.65; }
 
 .timeline { position: relative; padding-left: 28px; }
