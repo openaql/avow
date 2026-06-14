@@ -1,0 +1,32 @@
+Avow
+Copyright 2026 OpenAQL and the Avow contributors
+
+This product includes software developed as part of the Avow project.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use the software except in compliance with the License. A copy of the License
+is included in the LICENSE file and is available at
+http://www.apache.org/licenses/LICENSE-2.0.
+
+----------------------------------------------------------------------
+Trademarks
+----------------------------------------------------------------------
+"Avow" and "OpenAQL", together with their associated logos and brand assets
+(including the files in assets/icons/), are trademarks of their respective
+owners. The Apache License 2.0 does NOT grant any right to use these names
+or marks, except as required for reasonable and customary use in describing
+the origin of the work. If you fork or redistribute a modified version,
+please use your own name and branding.
+
+----------------------------------------------------------------------
+Content / data
+----------------------------------------------------------------------
+The bundled data in data/*.json may contain real-world criminal case information, court records, legal references, public records, and information compiled from reputable and verifiable sources.
+
+Avow is a criminal case documentation and legal research platform. Published case records are intended for research, educational, archival, and public-interest purposes. Avow aims to document criminal cases using publicly available records, judicial decisions, official documents, and other reliable sources.
+
+Where individuals are identified as offenders, such references are based on court judgments, official legal determinations, or authoritative public records available at the time of publication. Information may be updated, corrected, or supplemented as new official records or judicial decisions become available.
+
+The Apache License 2.0 applies solely to the software components of Avow, including its source code, styles, assets, and tooling. The license does not govern the factual content of case records or source materials.
+
+Users and contributors are responsible for ensuring compliance with applicable laws, privacy requirements, and publication standards within their jurisdiction.
