@@ -1,6 +1,6 @@
 "use strict";
 
-var CACHE_VERSION = "avow-v0.1.1";
+var CACHE_VERSION = "avow-v0.1.2";
 var SHELL_CACHE = CACHE_VERSION + "-shell";
 var DATA_CACHE = CACHE_VERSION + "-data";
 
