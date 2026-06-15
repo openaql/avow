@@ -11,6 +11,18 @@
       "caseIds": [
         "rapists-0001"
       ]
+    },
+    {
+      "id": "person-002",
+      "name": "Ishaq Mia",
+      "age": 29,
+      "location": "Mohonpur Village, Brahmanbaria Sadar, Brahmanbaria",
+      "district": "Brahmanbaria",
+      "avatar": "assets/images/avatars/ishaq_mia_murder.jpg",
+      "riskScore": 100,
+      "caseIds": [
+        "murders-0001"
+      ]
     }
   ]
 }

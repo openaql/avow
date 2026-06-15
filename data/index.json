@@ -8,6 +8,13 @@
       "icon": "shield-alert",
       "color": "#ef4444",
       "file": "data/rapists.json"
+    },
+    {
+      "id": "murders",
+      "label": "Murders",
+      "icon": "skull",
+      "color": "#dc2626",
+      "file": "data/murders.json"
     }
   ]
 }

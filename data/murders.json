@@ -1,0 +1,68 @@
+{
+  "category": "murders",
+  "label": "Murders",
+  "cases": [
+    {
+      "id": "murders-0001",
+      "personId": "person-002",
+      "category": "murders",
+      "caseType": "Murder",
+      "status": "arrested",
+      "date": "2026-04-18",
+      "signalScore": 100,
+      "shortDescription": "Arrested for allegedly suffocating 6-year-old Nishat to death in Mohonpur, Brahmanbaria.",
+      "description": "According to PBI, Ishaq Mia allegedly suffocated 6-year-old Nishat by pressing a vest over her mouth, causing death by asphyxiation. The victim's body was later recovered in a sack near her residence. Ishaq Mia was arrested by PBI and remains in custody while the investigation continues.",
+      "laws": [
+        "Penal Code, 1860"
+      ],
+      "sections": [
+        "302"
+      ],
+      "charges": [
+        "Murder"
+      ],
+      "related": [],
+      "timeline": [
+        {
+          "stage": "suspect_identified",
+          "date": "2026-04-18",
+          "title": "Suspect identified",
+          "detail": "PBI identified Ishaq Mia as the primary suspect."
+        },
+        {
+          "stage": "evidence_collected",
+          "date": "2026-04-18",
+          "title": "Evidence collected",
+          "detail": "Investigators recovered the vest allegedly used in the killing."
+        },
+        {
+          "stage": "arrested",
+          "date": "2026-04-18",
+          "title": "Arrested",
+          "detail": "Ishaq Mia was arrested by PBI."
+        }
+      ],
+      "name": "Ishaq Mia",
+      "age": 29,
+      "location": "Brahmanbaria, Bangladesh",
+      "photo": "assets/images/avatars/ishaq_mia_murder.jpg",
+      "cover": "assets/images/covers/ishaq_mia_murder_cover.jpg",
+      "source": "https://www.thedailystar.net/news/crime-justice/news/neighbour-held-over-murder-6-year-old-brahmanbaria-4154621",
+      "featured": true,
+      "trending": false,
+      "evidence": [
+        {
+          "type": "image",
+          "title": "Arrested Ishaq Mia",
+          "url": "assets/images/evidence/ishaq_mia_arrested.jpg",
+          "thumb": "assets/images/evidence/ishaq_mia_arrested.jpg"
+        },
+        {
+          "type": "news",
+          "title": "Press coverage",
+          "url": "https://www.prothomalo.com/bangladesh/district/u7szcsb669"
+        }
+      ]
+    }
+  ]
+}
